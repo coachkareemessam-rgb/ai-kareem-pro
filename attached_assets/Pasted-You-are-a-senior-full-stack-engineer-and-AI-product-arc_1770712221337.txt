@@ -1,0 +1,140 @@
+You are a senior full-stack engineer and AI product architect.
+
+Your mission is to build a professional interactive web application called:
+"AI Kareem Pro"
+
+The application is an AI-powered Sales Assistant & SOP Operating System designed for sales teams.
+
+========================================
+CORE OBJECTIVE
+========================================
+Create a smart assistant that helps sales teams:
+- Follow SOPs step by step
+- Navigate sales challenges in real time
+- Know exactly what to do, say, and send at every stage
+- Improve conversion rates and sales discipline
+- Act as a daily operational guide, not just a chatbot
+
+========================================
+TARGET USERS
+========================================
+- SDRs
+- BDRs
+- Closers
+- Sales Managers
+
+========================================
+MAIN FEATURES
+========================================
+
+1️⃣ SOP FLOWCHART ENGINE
+- Visual interactive flowchart of the full sales SOP
+- Each step includes:
+  - Objective
+  - Responsible role (SDR / Closer / Manager)
+  - Actions required
+  - Success criteria
+- Ability to highlight:
+  - Current step
+  - Next step
+  - Blocked step
+
+2️⃣ STEP TRACKING SYSTEM
+- Sales rep selects:
+  - Deal stage
+  - Customer status
+  - Current challenge
+- System tracks:
+  - Where the deal is
+  - What should happen next
+  - Who is responsible
+
+3️⃣ SALES CHALLENGE SOLVER (AI CORE)
+- User writes the challenge with the client (free text or selected scenarios)
+- AI analyzes the challenge and returns:
+  - Best recommended action
+  - What to say
+  - What NOT to say
+  - Next best step in SOP
+  - Escalation advice (if needed)
+
+4️⃣ MESSAGE & CONTENT GENERATOR
+Based on SOP + uploaded templates:
+- Email templates (follow-ups, objections, closing)
+- WhatsApp messages
+- Voice call scripts
+- Objection-handling responses
+- Closing messages
+
+Messages must be:
+- Context-aware
+- Short or long based on situation
+- Professional and persuasive
+- Editable before sending
+
+5️⃣ FILE & KNOWLEDGE BASE UPLOAD
+Admin can upload:
+- SOP documents
+- Sales playbooks
+- Flowcharts
+- Email & WhatsApp templates
+- Objection lists
+- Policies & rules
+
+The AI must:
+- Use uploaded files as the main source of truth
+- Not hallucinate outside the provided SOP unless asked
+
+6️⃣ ROLE-BASED EXPERIENCE
+Each user sees:
+- Only what matches their role
+- Clear instructions aligned with responsibilities
+Examples:
+- SDR sees qualification & follow-up logic
+- Closers see objection handling & closing strategies
+- Managers see escalation points & performance gaps
+
+7️⃣ SMART DECISION TREE
+If/Then logic:
+- If client objects on price → show correct framework
+- If client ghosts → show follow-up sequence
+- If client asks for discount → show approved responses
+- If deal stuck → recommend recovery path
+
+8️⃣ UI / UX REQUIREMENTS
+- Clean, professional, enterprise-grade design
+- Dashboard layout
+- Flowchart visualization
+- Chat-style AI assistant
+- Dark & Light mode
+- Mobile responsive
+
+========================================
+TECH REQUIREMENTS
+========================================
+- Frontend: React (or Next.js)
+- Backend: Node.js / Python
+- AI: OpenAI API (context-aware, file-based)
+- Database: Supabase / Firebase
+- Authentication: Role-based access
+- Modular architecture for future expansion
+
+========================================
+SPECIAL INSTRUCTIONS
+========================================
+- Treat this as a premium B2B SaaS product
+- Code should be clean, scalable, and well-structured
+- Prepare system to easily add CRM integration later
+- Application tone must be professional, authoritative, and sales-driven
+
+========================================
+FINAL OUTPUT EXPECTATION
+========================================
+A fully functional AI-powered sales assistant called:
+"AI Kareem Pro"
+
+It should act as:
+- A daily sales coach
+- A SOP enforcer
+- A smart problem-solver
+- A content & messaging engine
